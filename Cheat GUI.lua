@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 local Window = Library.CreateLib("NazHack(BETA)", "RJTheme7")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("SpeedHack")
-Section:NewSlider("Set speed", "Set walk speed", 500, 0, function(s)
+Section:NewSlider("Set speed", "Set walk speed", 1500, 0, function(s)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 	Section:NewSlider("Jump Power", "May not work", 500, 0, function(a)
